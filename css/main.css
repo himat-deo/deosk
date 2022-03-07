@@ -83,31 +83,6 @@ footer li img {
   backface-visibility: hidden;
 }
 
-/* .middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.col-sm-6:hover .thumb {
-  opacity: 0.3;
-}
-
-.col-sm-6:hover .middle {
-  opacity: 1;
-} */
-
-/* .hover-text {
-  color: #4c4c4cff;
-  font-size: 80px;
-  padding: 16px 32px;
-} */
-
 .hover-text {
   color: #4c4c4cff;
   font-size: 80px;
