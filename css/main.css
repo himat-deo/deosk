@@ -111,6 +111,7 @@ footer li img {
 .hover-text {
   color: #4c4c4cff;
   font-size: 80px;
+  font-family: Verdana, sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
