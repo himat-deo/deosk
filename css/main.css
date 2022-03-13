@@ -20,7 +20,7 @@ header h1 {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #4c4c4cff;
   overflow: hidden;
 }
 
@@ -44,7 +44,7 @@ header h1 {
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #e2c22fff;
   color: white;
 }
 
