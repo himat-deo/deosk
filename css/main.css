@@ -22,6 +22,7 @@ header h1 {
 .topnav {
   background-color: #4c4c4cff;
   overflow: hidden;
+  margin-bottom: 16px;
 }
 
 /* Style the links inside the navigation bar */
@@ -61,7 +62,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url("../img/blue-scarf.jpg");
+  background-image: url("../img/logo/400dpiLogoCropped.jpg");
   background-size: cover;
   color: #ffffff;
   height: 500px;
@@ -113,9 +114,9 @@ footer li img {
   backface-visibility: hidden;
 }
 
-.hover-text {
+.product-description {
   color: #4c4c4cff;
-  font-size: 80px;
+  font-size: 24px;
   font-family: Verdana, sans-serif;
   position: absolute;
   top: 50%;
@@ -123,24 +124,7 @@ footer li img {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: white;
-}
-
-.col-sm-6:hover .overlay {
-  opacity: 0.5;
+  text-align: left;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
