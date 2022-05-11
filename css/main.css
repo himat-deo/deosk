@@ -22,6 +22,7 @@ header h1 {
 .topnav {
   background-color: #4c4c4cff;
   overflow: hidden;
+  margin-bottom: 32px;
 }
 
 /* Style the links inside the navigation bar */
@@ -48,6 +49,11 @@ header h1 {
   color: white;
 }
 
+.topnav a.external {
+  background-color: orangered;
+  color: white;
+}
+
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
@@ -61,7 +67,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url("../img/blue-scarf.jpg");
+  background-image: url("../img/logo/400dpiLogoCropped.jpg");
   background-size: cover;
   color: #ffffff;
   height: 500px;
@@ -89,9 +95,38 @@ section .row img {
   margin: 0 0 30px;
 }
 
+.thumb {
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.product-description {
+  color: #4c4c4cff;
+  font-size: 24px;
+  font-family: Verdana, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.product-title {
+  font-size: 24px;
+}
+
 footer {
   font-size: 12px;
   padding: 20px 0;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	background-color: #4c4c4cff;
+	color: white;
+	text-align: center;
 }
 
 footer .col-sm-8 {
@@ -106,41 +141,6 @@ footer ul {
 footer li img {
   width: 32px;
   height: 32px;
-}
-
-.thumb {
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.hover-text {
-  color: #4c4c4cff;
-  font-size: 80px;
-  font-family: Verdana, sans-serif;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: white;
-}
-
-.col-sm-6:hover .overlay {
-  opacity: 0.5;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
