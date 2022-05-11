@@ -22,7 +22,7 @@ header h1 {
 .topnav {
   background-color: #4c4c4cff;
   overflow: hidden;
-  margin-bottom: 16px;
+  margin-bottom: 32px;
 }
 
 /* Style the links inside the navigation bar */
@@ -46,6 +46,11 @@ header h1 {
 /* Add an active class to highlight the current page */
 .topnav a.active {
   background-color: #e2c22fff;
+  color: white;
+}
+
+.topnav a.external {
+  background-color: orangered;
   color: white;
 }
 
@@ -90,25 +95,6 @@ section .row img {
   margin: 0 0 30px;
 }
 
-footer {
-  font-size: 12px;
-  padding: 20px 0;
-}
-
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
-}
-
-footer ul {
-  list-style: none;
-}
-
-footer li img {
-  width: 32px;
-  height: 32px;
-}
-
 .thumb {
   transition: .5s ease;
   backface-visibility: hidden;
@@ -125,6 +111,36 @@ footer li img {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: left;
+}
+
+.product-title {
+  font-size: 24px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	background-color: #4c4c4cff;
+	color: white;
+	text-align: center;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
