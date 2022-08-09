@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Deosk - Scarves</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.bundle.js"></script>
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="../index.html">Home</a>
+    <a href="../scarves.html">Scarves</a>
+    <a href="../hats.html" class="active">Hats</a>
+    <a href="#baby">Baby</a>
+    <a href="#bows">Bow Ties</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="https://www.etsy.com/uk/shop/deosk" target="_blank" class="external">Shop</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <section class="container">
+    <div class="row">
+      <figure class="col-sm-6">
+        <img class="thumb" src="../img/red-baby-hat.jpg" id="imageToSwap"/>
+      </figure>
+      <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+              <div class="product-title">Chunky hand knitted, warm cosy neck warmer. Neutral tones. Ultra soft with large button detail. Machine washable. 
+                Two colours and styles.</div>
+              <h3>£36</h3>
+              <select class="form-control" aria-label=".form-select-lg example" onchange="$('#imageToSwap').attr('src', this.options[this.selectedIndex].value);" style="margin-bottom: 16px;">
+                <option selected value="../img/red-baby-hat.jpg">Red</option>
+                <option value="../img/blue-baby-hat.jpg">Blue</option>
+              </select>
+              <p>A beautiful, chunky knit neck warmer with lovely large button detail and neutral tones to compliment any outfit.</p>
+              <p>Choose from the black and white, with slightly offset high collar detail, or the classic symmetrical flat collar style in subtle beige tones.</p>
+              <p>Soft and cosy for those cold winter days. Warm and stylish. Sits snuggly under coats and jackets and looks fabulous, even as an all day accessory.</p>
+              <button type="button" class="btn btn-primary btn-lg btn-block" style="margin-bottom: 32px;">Add to basket</button>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <div class="footer-dark">
+      <footer>
+          <div class="container">
+              <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="#">Scarves</a></li>
+                        <li><a href="#">Hats</a></li>
+                        <li><a href="#">Baby</a></li>
+                        <li><a href="#">Bows</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Deosk</a></li>
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href=""> </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>Deosk</h3>
+                    <p>Highest quality knitwear and accessories.  Hand made in England.</p>
+                </div>
+              </div>
+              <p class="copyright">Deosk © 2022</p>
+          </div>
+      </footer>
+  </div>
+  
+<script src="../js/navbar.js"></script>
+</body>
+</html>

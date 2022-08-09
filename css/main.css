@@ -137,6 +137,7 @@ section .row img {
 
 .footer-dark {
   padding:50px 0;
+  margin-top: 32px;
   color:#f0f9ff;
   background-color: #4c4c4cff;
 }
